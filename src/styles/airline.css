@@ -8,3 +8,8 @@
 .airline-tile:hover {
   border: 1px solid #363f45;
 }
+
+.tile-img {
+  width: 32px;
+  height: 32px;
+}

@@ -8,7 +8,7 @@ import '../styles/airlines.css'
 export default function Airlines() {
   const [, setAirlines] = useState([])
   const [displayedAirlines, setDisplayedAirlines] = useState([])
-  const increment = 9
+  const increment = 27
 
   useEffect(() => {
     axios({
@@ -16,7 +16,6 @@ export default function Airlines() {
       adapter: jsonpAdapter,
       callbackParamName: 'jsonp', // optional, 'callback' by default
     }).then((res) => {
-      console.log(res.data.slice(0, 9))
       setAirlines(res.data)
       setDisplayedAirlines(res.data.slice(0, increment))
     })
