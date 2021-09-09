@@ -1,0 +1,14 @@
+.filter {
+  background-color: aqua;
+  color: #192024;
+}
+
+.filter h3 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.filter label {
+  font-size: 14px;
+  font-weight: normal;
+}
