@@ -1,9 +1,10 @@
 import React from 'react'
+import '../styles/title.css'
 
 export default function Title() {
   return (
-    <div>
-      <h1>Title</h1>
+    <div className="title">
+      <h1>Airlines</h1>
     </div>
   )
 }
