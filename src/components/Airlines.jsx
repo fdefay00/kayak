@@ -8,7 +8,7 @@ import '../styles/airlines.css'
 export default function Airlines() {
   const [, setAirlines] = useState([])
   const [displayedAirlines, setDisplayedAirlines] = useState([])
-  const increment = 27
+  const increment = 18
 
   useEffect(() => {
     axios({
