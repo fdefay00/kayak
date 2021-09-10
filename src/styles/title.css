@@ -1,7 +1,7 @@
 .title {
   margin-top: 67px;
   margin-bottom: 73px;
-  /* background-color: cadetblue; */
+  align-self: flex-start;
 }
 
 .title h1 {

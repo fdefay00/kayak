@@ -1,9 +1,9 @@
 .filter {
-  /* background-color: aqua; */
+  align-self: flex-start;
 }
 
 .filter h3 {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 16px;
   margin-bottom: 23px;
 }

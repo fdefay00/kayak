@@ -21,10 +21,6 @@ function App() {
 
 export default App
 /**
- * to do:
- * Filtering
- * style filter area
  * media query
  * load more button
- * loading svg
  */

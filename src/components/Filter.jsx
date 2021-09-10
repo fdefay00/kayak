@@ -12,7 +12,6 @@ export default function Filter({ setFilters }) {
     setForm((prevForm) => {
       const form = { ...prevForm, [name]: e.target.checked }
       const filters = Object.keys(form).filter((key) => form[key])
-      console.log({ form, filters })
       setFilters(filters)
 
       return form
