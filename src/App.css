@@ -128,19 +128,19 @@ table {
 }
 
 .container {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
+  /* display: grid; */
+  /* justify-content: stretch; */
   font-family: HelveticaNeue;
   color: #192024;
   max-width: 1436px;
   /* min-width: 488px; */
   margin: auto;
   padding: 0 94px;
-  /* margin-bottom: 100px; */
 }
 
 button {
+  cursor: pointer;
+  border: none;
   width: 90px;
   height: 60px;
   padding: 10px 10px;
@@ -148,5 +148,5 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
 }

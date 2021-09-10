@@ -33,12 +33,14 @@ export default function Airlines({ filters }) {
   const displayedAirlines = filteredAirlines.slice(0, increment)
 
   return (
-    <div className="airlines-container">
-      {loading && <Loader />}
-      {displayedAirlines.map((airline, id) => (
-        <Airline key={id} airline={airline} />
-      ))}
+    <>
+      <div className="airlines-container">
+        {loading && <Loader />}
+        {displayedAirlines.map((airline, id) => (
+          <Airline key={id} airline={airline} />
+        ))}
+      </div>
       {!loading && <Button label="Load More" loadMore={loadMore} />}
-    </div>
+    </>
   )
 }
