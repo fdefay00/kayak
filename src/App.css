@@ -128,7 +128,7 @@ table {
 }
 
 .container {
-  margin-left: 94px;
+  margin: 0 94px;
   font-family: HelveticaNeue;
   margin-bottom: 100px;
   color: #192024;

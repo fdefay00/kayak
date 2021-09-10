@@ -3,6 +3,7 @@ import MoreInfo from './MoreInfo'
 import '../styles/airline.css'
 
 export default function Airline({ airline }) {
+  // console.log(airline)
   const [displayMoreInfo, setDisplayMoreInfo] = useState(false)
   return (
     <div
