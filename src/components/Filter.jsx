@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../styles/filter.css'
 
 export default function Filter({ setFilters }) {
@@ -7,12 +7,16 @@ export default function Filter({ setFilters }) {
     ST: false,
     SA: false,
   })
+
+  useEffect(() => {
+    const filters = Object.keys(form).filter((key) => form[key])
+    setFilters(filters)
+  }, [form, setFilters])
+
   const handleChange = (e) => {
     const name = e.target.name
     setForm((prevForm) => {
       const form = { ...prevForm, [name]: e.target.checked }
-      const filters = Object.keys(form).filter((key) => form[key])
-      setFilters(filters)
 
       return form
     })

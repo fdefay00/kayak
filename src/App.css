@@ -128,14 +128,12 @@ table {
 }
 
 .container {
-  /* display: grid; */
-  /* justify-content: stretch; */
   font-family: HelveticaNeue;
   color: #192024;
   max-width: 1436px;
-  /* min-width: 488px; */
   margin: auto;
   padding: 0 94px;
+  margin-bottom: 56px;
 }
 
 button {

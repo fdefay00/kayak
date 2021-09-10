@@ -30,6 +30,7 @@ export default function Airlines({ filters }) {
     return filters.length > 0 ? filters.includes(airline.alliance) : true
   }
   const filteredAirlines = airlines.filter(filterBy)
+
   const displayedAirlines = filteredAirlines.slice(0, increment)
 
   return (
